@@ -1,6 +1,6 @@
 'use strict';
 let fs = require('fs');
-let fileName = './text.txt';
+let fileName = './test.txt';
 for (let count = 0; count < 1000; count++) {
 	fs.appendFile(fileName, 'あ', 'utf8');
 	fs.appendFile(fileName, 'い', 'utf8');
